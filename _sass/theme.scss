@@ -40,12 +40,12 @@ h1, h2, h3 {
 }
 
 h1 {
-	@include fluidType(36px, 48px);
+	@include fluidType(36px, 42px);
 }
 
 h2 {
 	font-weight: bold;
-	@include fluidType(28px, 32px);
+	@include fluidType(28px, 24px);
 }
 
 h4 {
@@ -61,12 +61,13 @@ figcaption {
 
 header {
 	// background-size: cover;
-	padding: 42px 0;
+	padding: 24px 0;
 	color: #fff;
 	overflow: hidden;
 	h2 {
 		font-weight: normal;
-		margin-top: 5px;
+		margin-top: 0px;
+		margin-bottom:5px;
 	}
 	h1 {
 		margin: 0;
