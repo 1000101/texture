@@ -83,9 +83,9 @@ header {
 			float: left;
 			i {
 				&:first-child::before {
-					margin-left: 0;
+					margin-right: 0.4em;
 				}
-				@include fluidType(26px, 34px);
+				@include fluidType(14px, 24px);
 				transition: color .3s;
 				&:hover {
 					color: $gray;
